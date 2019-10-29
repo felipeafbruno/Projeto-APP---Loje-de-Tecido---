@@ -9,7 +9,20 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f2265e1-f029-4d8c-801c-3904f4966b23" name="Default Changelist" comment="" />
+    <list default="true" id="2f2265e1-f029-4d8c-801c-3904f4966b23" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/uninove/lojadetecido/crud/DetailsTecido.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/uninove/lojadetecido/crud/DetailsTecido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/uninove/lojadetecido/crud/EditRecordTecido.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/uninove/lojadetecido/crud/EditRecordTecido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/uninove/lojadetecido/crud/InsertTecido.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/uninove/lojadetecido/crud/InsertTecido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/uninove/lojadetecido/crud/ListTecido.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/uninove/lojadetecido/crud/ListTecido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/uninove/lojadetecido/crud/SearchTecido.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/uninove/lojadetecido/crud/SearchTecido.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,13 +48,15 @@
           <provider editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/uninove/lojadetecido/crud/DetailsTecido.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="85" column="30" lean-forward="true" selection-start-line="85" selection-start-column="30" selection-end-line="85" selection-end-column="30" />
+            <state relative-caret-position="203">
+              <caret line="101" column="108" lean-forward="true" selection-start-line="101" selection-start-column="16" selection-end-line="101" selection-end-column="108" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#3137#4939#0" expanded="true" />
+                <element signature="e#4938#4939#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -50,8 +65,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/uninove/lojadetecido/crud/EditRecordTecido.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="95" column="163" lean-forward="true" selection-start-line="95" selection-start-column="12" selection-end-line="95" selection-end-column="163" />
+            <state relative-caret-position="184">
+              <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2463#5085#0" expanded="true" />
+                <element signature="e#5084#5085#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/uninove/lojadetecido/crud/SearchTecido.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="153" column="9" lean-forward="true" selection-start-line="149" selection-start-column="7" selection-end-line="153" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/uninove/lojadetecido/crud/InsertTecido.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="365">
+              <caret line="119" column="9" selection-start-line="119" selection-start-column="9" selection-end-line="119" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,10 +103,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/uninove/lojadetecido/crud/ListTecido.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="58" column="53" selection-start-line="58" selection-start-column="53" selection-end-line="58" selection-end-column="53" />
+            <state relative-caret-position="254">
+              <caret line="58" column="109" lean-forward="true" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="109" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1798#2327#0" expanded="true" />
+                <element signature="e#2326#2327#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,6 +130,9 @@
       <find>instanciand</find>
       <find>Instanciando</find>
       <find>edit</find>
+      <find>LIST</find>
+      <find>Class teci</find>
+      <find>Class</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -102,10 +148,7 @@
         <option value="$PROJECT_DIR$/app/src/test/java/com/uninove/lojadetecido/ExampleUnitTest.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/uninove/lojadetecido/utils/Message.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/uninove/lojadetecido/crud/InsertTecido.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/uninove/lojadetecido/crud/SearchTecido.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/uninove/lojadetecido/crud/ListTecido.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/uninove/lojadetecido/intent/Tecido.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/uninove/lojadetecido/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
@@ -114,8 +157,11 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_insert_tecido.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_list_tecido.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_search_tecido.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/uninove/lojadetecido/crud/EditRecordTecido.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/uninove/lojadetecido/crud/ListTecido.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/uninove/lojadetecido/crud/SearchTecido.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/uninove/lojadetecido/crud/DetailsTecido.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/uninove/lojadetecido/crud/EditRecordTecido.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/uninove/lojadetecido/crud/InsertTecido.java" />
       </list>
     </option>
   </component>
@@ -139,6 +185,35 @@
               <item name="Loja de Tecido" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
             </path>
+            <path>
+              <item name="Loja de Tecido" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="Loja de Tecido" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="lojadetecido" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Loja de Tecido" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="lojadetecido" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="crud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Loja de Tecido" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+            <path>
+              <item name="Loja de Tecido" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -147,6 +222,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -258,6 +334,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19591528" />
       <window_info x="32" y="155" width="513" height="146" id="Palette " order="1" type="FLOATING" />
@@ -270,10 +347,10 @@
       <window_info id="Resources Explorer" order="8" />
       <window_info id="Capture Tool" order="9" />
       <window_info anchor="bottom" id="Logcat" order="0" sideWeight="0.49924356" weight="0.32872504" />
-      <window_info anchor="bottom" id="Run" order="1" sideWeight="0.47579426" weight="0.32872504" />
+      <window_info anchor="bottom" id="Run" order="1" sideWeight="0.4750378" weight="0.32718894" />
       <window_info anchor="bottom" id="Debug" order="2" />
       <window_info anchor="bottom" id="Terminal" order="3" sideWeight="0.49167928" weight="0.32872504" />
-      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.52420574" side_tool="true" weight="0.32872504" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5249622" side_tool="true" weight="0.32872504" />
       <window_info anchor="bottom" id="TODO" order="5" sideWeight="0.4969743" weight="0.32872504" />
       <window_info anchor="bottom" id="Version Control" order="6" />
       <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49016643" weight="0.32872504" />
@@ -337,26 +414,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/uninove/lojadetecido/crud/SearchTecido.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1411">
-          <caret line="104" column="16" selection-start-line="104" selection-start-column="16" selection-end-line="104" selection-end-column="82" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/uninove/lojadetecido/crud/InsertTecido.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="88" column="34" selection-start-line="88" selection-start-column="34" selection-end-line="88" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -429,24 +486,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/uninove/lojadetecido/crud/ListTecido.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="58" column="53" selection-start-line="58" selection-start-column="53" selection-end-line="58" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_search_tecido.xml">
       <provider selected="true" editor-type-id="android-designer2" />
       <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/uninove/lojadetecido/crud/EditRecordTecido.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="95" column="163" lean-forward="true" selection-start-line="95" selection-start-column="12" selection-end-line="95" selection-end-column="163" />
+        <state relative-caret-position="184">
+          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2463#5085#0" expanded="true" />
+            <element signature="e#5084#5085#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/uninove/lojadetecido/crud/SearchTecido.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="153" column="9" lean-forward="true" selection-start-line="149" selection-start-column="7" selection-end-line="153" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -455,8 +514,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/uninove/lojadetecido/crud/DetailsTecido.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="85" column="30" lean-forward="true" selection-start-line="85" selection-start-column="30" selection-end-line="85" selection-end-column="30" />
+        <state relative-caret-position="203">
+          <caret line="101" column="108" lean-forward="true" selection-start-line="101" selection-start-column="16" selection-end-line="101" selection-end-column="108" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3137#4939#0" expanded="true" />
+            <element signature="e#4938#4939#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/uninove/lojadetecido/crud/ListTecido.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="58" column="109" lean-forward="true" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="109" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1798#2327#0" expanded="true" />
+            <element signature="e#2326#2327#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/uninove/lojadetecido/crud/InsertTecido.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="119" column="9" selection-start-line="119" selection-start-column="9" selection-end-line="119" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

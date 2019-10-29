@@ -112,6 +112,12 @@ public class InsertTecido extends AppCompatActivity {
         corTecido.setText("");
         metrageTecido.setText("");
         valorTecido.setText("");
+
+        View view = this.getCurrentFocus();
+        if(view != null) {
+            InputMethodManager imm = (InputMethodManager)getSystemService(Context.INPUT_METHOD_SERVICE);
+            imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
+        }
     }
 
     // Configura o botão (seta) na ActionBar (Barra Superior)

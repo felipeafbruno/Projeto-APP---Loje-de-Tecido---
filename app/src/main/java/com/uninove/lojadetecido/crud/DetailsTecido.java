@@ -70,6 +70,8 @@ public class DetailsTecido extends AppCompatActivity {
             public void onClick(View view) {
                 Intent itEditarTecido = new Intent(getApplicationContext(), EditRecordTecido.class);
                 itEditarTecido.putExtra("objTecido", tecido);
+                //Enviando a classe para qual quero voltar quando for editar algum registro da tabela.
+                itEditarTecido.putExtra("classActivityReturn", itDetailsTecido.getExtras().get("classActivityReturn").toString());
                 startActivity(itEditarTecido);
             }
         });
@@ -89,18 +91,17 @@ public class DetailsTecido extends AppCompatActivity {
                         R.drawable.ic_add
                 );
 
-                if(itDetailsTecido.getExtras().get("classListTecido") == ListTecido.class){
-                    //Voltando para intent anterior activity_list_tecido.
+                //Verificando para qual acitivity voltar após excluir - 1º if activity_list_tecido  ou 2º if acitivity_search_tecido.
+                if(itDetailsTecido.getExtras().get("classActivityReturn").equals("activity_list_tecido")){
                     Intent it = new Intent(DetailsTecido.this, ListTecido.class);
                     //Limpando todas as activity do topo para que o botão de retorno siga para a old activity seguinte e não fique loop voltando para a activity de edição.
                     it.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                     startActivity(it);
                 }
 
-                if(itDetailsTecido.getExtras().get("classSearchTecido") == SearchTecido.class){
-                    //Voltando para intent anterior activity_list_tecido.
-                    //Limpando todas as activity do topo para que o botão de retorno siga para a old activity seguinte e não fique loop voltando para a activity de edição.
+                if(itDetailsTecido.getExtras().get("classActivityReturn").equals("activity_search_tecido")){
                     Intent it = new Intent(DetailsTecido.this, SearchTecido.class);
+                    //Limpando todas as activity do topo para que o botão de retorno siga para a old activity seguinte e não fique loop voltando para a activity de edição.
                     it.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                     startActivity(it);
                 }

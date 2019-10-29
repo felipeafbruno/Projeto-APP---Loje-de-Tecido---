@@ -56,7 +56,8 @@ public class ListTecido extends AppCompatActivity {
             Tecido tecido = (Tecido) listViewTecidos.getItemAtPosition(pos);
             Intent itDetailsTecido = new Intent(getApplicationContext(), DetailsTecido.class);
             itDetailsTecido.putExtra("objTecido", tecido);
-            itDetailsTecido.putExtra("classListTecido", ListTecido.class);
+            //Enviando o nome da activity quero voltar quando for excluir ou editar algum registro da tabela.
+            itDetailsTecido.putExtra("classActivityReturn", "activity_list_tecido");
             startActivity(itDetailsTecido);
             }
         });

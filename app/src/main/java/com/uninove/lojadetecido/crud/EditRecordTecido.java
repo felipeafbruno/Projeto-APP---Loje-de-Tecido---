@@ -16,6 +16,8 @@ import com.uninove.lojadetecido.R;
 import com.uninove.lojadetecido.intent.Tecido;
 import com.uninove.lojadetecido.utils.Message;
 
+import javax.microedition.khronos.egl.EGLDisplay;
+
 public class EditRecordTecido extends AppCompatActivity {
     //Dclaração do objeto que vai criar ao banco e executar as querys.
     SQLiteDatabase db;
@@ -43,11 +45,11 @@ public class EditRecordTecido extends AppCompatActivity {
         metrageTecido = findViewById(R.id.textViewMetragemTecido);
         valorTecido = findViewById(R.id.textViewValorTecido);
 
-        //Recuperando a Intent enviada pela classe ListTecido
-        final Intent itDetailsTecido = getIntent();
+        //Recuperando a Intent enviada pela classe editDetailsTecido.
+        final Intent itEditRecordTecido = getIntent();
 
         //Recuperando o objeto tecido na intent.
-        final Tecido tecido = (Tecido) itDetailsTecido.getExtras().getSerializable("objTecido");
+        final Tecido tecido = (Tecido) itEditRecordTecido.getExtras().getSerializable("objTecido");
 
         //Inserindo valores do tecido nos campos.
         idTecido.setText(String.valueOf(tecido.getId()));
@@ -91,11 +93,20 @@ public class EditRecordTecido extends AppCompatActivity {
                     R.drawable.ic_add
             );
 
-            //Volta pra a activity principal.
-            Intent itListarTecido = new Intent(getApplicationContext(), ListTecido.class);
-            //Limpando todas as activity do topo para que o botão de retorno siga para a old activity seguinte e não fique loop voltando para a activity de edição.
-            itListarTecido.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-            startActivity(itListarTecido);
+                //Verificando para qual acitivity voltar após excluir - 1º if activity_list_tecido  ou 2º if acitivity_search_tecido.
+                if(itEditRecordTecido.getExtras().get("classActivityReturn").equals("activity_list_tecido")){
+                    Intent it = new Intent(EditRecordTecido.this, ListTecido.class);
+                    //Limpando todas as activity do topo para que o botão de retorno siga para a old activity seguinte e não fique loop voltando para a activity de edição.
+                    it.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    startActivity(it);
+                }
+                if(itEditRecordTecido.getExtras().get("classActivityReturn").equals("activity_search_tecido")){
+                    Intent it = new Intent(EditRecordTecido.this, SearchTecido.class);
+                    //Limpando todas as activity do topo para que o botão de retorno siga para a old activity seguinte e não fique loop voltando para a activity de edição.
+                    it.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    startActivity(it);
+                }
+
             }
 
         });
