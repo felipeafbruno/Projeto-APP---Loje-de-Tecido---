@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Loja de Tecido</string>
+    <string name="inserirTecido">Inserir Tecido</string>
+    <string name="listarTecidos" translatable="false" >Listar Tecidos</string>
+    <string name="pesquisarTecido">Pesquisar Tecido</string>
+    <string name="gerencimentoTecidos">Gerenciamento de Tecidos</string>
+    <string name="txtTipoTecido">Tipo:</string>
+    <string name="hintTipoTecido">Digite o tipo do tecido</string>
+    <string name="txtCorTecido">Cor:</string>
+    <string name="hintCorTecido">Digite a cor do tecido</string>
+    <string name="txtMetragemTecido">Metragem:</string>
+    <string name="hintMetragemTecido">Metragem do tecido</string>
+    <string name="txtValorTecido">Valor:</string>
+    <string name="hintValorTecido">Valor (metro)</string>
+    <string name="txtsalvarTecido">Salvar</string>
+    <string name="txtInserirTecido">Inserção do Tecido</string>
+    <string name="txtListaTecidos">Lista de Tecidos</string>
+    <string name="textDadosTecido">Dados do Tecido</string>
+    <string name="txtIdTecido">Id:</string>
+    <string name="txtEditarDadosTecido">Editar Dados do Tecido</string>
+    <string name="txtEditarTecido">Editar</string>
+    <string name="txtDadosTecido">Dados do Tecido</string>
+    <string name="txtAtualizarTecido">Atualizar</string>
+    <string name="txtPesquisaTecido">Pesquisar Tecido</string>
+    <string name="txtPesquisaTecidoTipo">Tipo</string>
+    <string name="txtPesquisaTecidoCor">Cor</string>
+    <string name="txtExcluirTecido">Excluir</string>
+    <string name="fecharAPP">Fechar</string>
+</resources>
